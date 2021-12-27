@@ -9,15 +9,16 @@
 }
 
 :root {
-    --primary-color: #53CDCA;
-    --secondary-color: #0B9A92;
-    --tertiary-color: #FC893B;
-    --dark-color: black;
+    --primary-color: #0B9A92;
+    --secondary-color: #1A7AC3;
+    --tertiary-color: #53CDCA;
+    --dark-color: rgb(68, 68, 68);
     --light-color: white;
     --grey-color: lightgrey;
     --border-square: 0px;
     --border-round-5: 5px;
     --border-round-10: 10px;
+    color: rgb(68, 68, 68);
 }
 
 body,header,main,footer,h1, h2, h3, h4, h5, h6, p,div, section, article, aside, table, form, legend {
@@ -33,12 +34,6 @@ body {
 div, section, article, aside, form, fieldset, legend, input {
     background: white;
     border-radius: var(--border-round-10);
-}
-
-th, td {
-    width: 33%;
-    margin: 5px;
-    padding: 5px;
 }
 
 .bg-pr{
@@ -83,6 +78,10 @@ th, td {
     height: 30%;
 } 
 
+.h-100px {
+    height: 100px;
+} 
+
 
 /* Росиционирунг */
 
@@ -117,7 +116,25 @@ th, td {
 
 /* Tabellen */
 
+table, table legend, th, td {
+    border: 1px solid var(--dark-color);
+}
 
+table {
+    border-collapse: collapse;
+    border-radius: var(--border-round-10);
+    border-style: hidden;
+}
+
+th, td {
+    width: 33%;
+    margin: 5px;
+    padding: 5px;
+}
+
+th {
+    border-bottom: 3px solid;
+}
 
 /* Formen */
 
@@ -131,8 +148,16 @@ fieldset, label, input {
     margin: 5px 0;
 }
 
+fieldset label, fieldset input {
+    color: var(--light-color);
+}
+
 legend {
     background: var(--grey-color);
+}
+
+input[type="checkbox"] {
+    /* border: 1px solid red; */
 }
 
 button {
@@ -148,4 +173,28 @@ button {
     display: grid;
     grid-template-columns: 10% 1fr;
     align-items: center;
+}
+
+/* Animationen */
+.loading-img {
+    fill: var(--primary-color);
+}
+
+.rotate {
+    animation: rotate 1.7s linear infinite;
+}
+
+@keyframes rotate { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+.slideIn-le {
+    animation-name: slideIn-le;
+}
+
+.slideIn-ri {
+    animation-name: slideIn-ri;
 }
