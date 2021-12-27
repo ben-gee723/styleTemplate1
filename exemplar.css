@@ -9,15 +9,16 @@
 }
 
 :root {
-    --primary-color: #53CDCA;
-    --secondary-color: #0B9A92;
-    --tertiary-color: #FC893B;
-    --dark-color: black;
+    --primary-color: #0B9A92;
+    --secondary-color: #1A7AC3;
+    --tertiary-color: #53CDCA;
+    --dark-color: rgb(68, 68, 68);
     --light-color: white;
     --grey-color: lightgrey;
     --border-square: 0px;
     --border-round-5: 5px;
     --border-round-10: 10px;
+    color: rgb(68, 68, 68);
 }
 
 body,header,main,footer,h1, h2, h3, h4, h5, h6, p,div, section, article, aside, table, form, legend {
@@ -131,8 +132,16 @@ fieldset, label, input {
     margin: 5px 0;
 }
 
+fieldset label, fieldset input {
+    color: var(--light-color);
+}
+
 legend {
     background: var(--grey-color);
+}
+
+input[type=checkbox] {
+    border: none;
 }
 
 button {
