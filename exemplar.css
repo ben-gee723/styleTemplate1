@@ -36,12 +36,6 @@ div, section, article, aside, form, fieldset, legend, input {
     border-radius: var(--border-round-10);
 }
 
-th, td {
-    width: 33%;
-    margin: 5px;
-    padding: 5px;
-}
-
 .bg-pr{
     background: var(--primary-color);
 }
@@ -84,6 +78,10 @@ th, td {
     height: 30%;
 } 
 
+.h-100px {
+    height: 100px;
+} 
+
 
 /* Росиционирунг */
 
@@ -118,7 +116,25 @@ th, td {
 
 /* Tabellen */
 
+table, table legend, th, td {
+    border: 1px solid var(--dark-color);
+}
 
+table {
+    border-collapse: collapse;
+    border-radius: var(--border-round-10);
+    border-style: hidden;
+}
+
+th, td {
+    width: 33%;
+    margin: 5px;
+    padding: 5px;
+}
+
+th {
+    border-bottom: 3px solid;
+}
 
 /* Formen */
 
@@ -140,8 +156,8 @@ legend {
     background: var(--grey-color);
 }
 
-input[type=checkbox] {
-    border: none;
+input[type="checkbox"] {
+    /* border: 1px solid red; */
 }
 
 button {
