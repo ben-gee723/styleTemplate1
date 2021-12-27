@@ -23,6 +23,7 @@ In diesem Repo geht es darum, um CSS zu testen und experimentieren wie ich das S
  - [] Layouts
     - [] grid
  - [] Animationen
+    - [x] Loading...
     - [] Pseudo Elemente
  - [] Responsivity
     - [] Mobile
