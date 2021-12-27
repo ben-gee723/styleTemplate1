@@ -1,0 +1,138 @@
+<!doctype  html>
+<html
+<head>
+    <link rel="stylesheet" href="master.css">
+    <title>Test style</title>
+</head>
+<body>
+    <header>
+        <h1>Test HTML</h1>
+    </header>
+    <section>
+        <h2>Fonts und Größen</h2>
+        <p>Beschreibung: </p>
+        <p>Font: Source Code Pro</p>
+        <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+        <p>abcdefghijklmnopqrstuvwxyz</p>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+        <div class="bg-pr">
+            <p class="co-lt"> helles Font, primär Hintergrund</p>
+        </div>
+        <div class="bg-se">
+            <p class="co-lt">helles Font, sekundär Hintergrund</p>
+        </div>
+        <div class="bg-te">
+            <p class="co-lt">helles Font, dritte Hintergrund</p>
+        </div>
+        <div class="bg-lt">
+            <p class="co-dk">dunkel Font, heller Hintergrund</p>
+        </div>
+        <div class="bg-dk">
+            <p class="co-lt">helles Font, dunkel Hintergrund </p>
+        </div>
+        <div class="bg-gr">
+            <p class="co-dk"> dunkel Font, grauer Hintergrund </p>
+        </div>
+    </section>
+    <section>
+         <h2>Positionierung</h2>
+         <p>Beschreibung: </p>
+         <h3>justify-content</h3>
+         <article class="fl-wp jc-fs bg-pr">
+             <h3 class="co-lt">flex-start</h3>
+         </article>
+         <article class="fl-wp jc-ce bg-se">
+             <h3 class="co-lt">center</h3>
+         </article>
+         <article class="fl-wp jc-fe bg-te">
+             <h3 class="co-lt">flex-end</h3>
+         </article>
+         <h3>align-items</h3>
+         <article class="fl-wp ai-fs bg-pr h-20pc">
+             <h3>flex-start</h3>
+         </article>
+         <article class="fl-wp ai-ce bg-se h-20pc">
+             <h3>center</h3>
+         </article>
+         <article class="fl-wp ai-fe bg-te h-20pc">
+             <h3>flex-end</h3>
+         </article>
+    </section>
+    <section>
+        <h2>Table</h2>
+        <p>Beschreibung: </p>
+        <table border="0">
+            <legend>Table</legend>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Date</th>  
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Ben</td>
+                    <td>xx.xx.xxxx</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td>ID</td>
+                <td></td>
+                <td>2021</td>
+            </tfoot>
+        </table>
+
+    </section>
+    <section>
+        <h2>Pseudo-Elemente</h2>
+        <p></p>
+    </section>
+    <section>
+        <h2>Formen</h2>
+        <p>Beschreibung: </p>
+        <form action="" method="get" accept-charset="utf-8">
+            <h3>Kontakt Form</h3>
+            <fieldset class="fo-grid bg-pr">
+                <legend>Allgemein</legend>
+                <label for="fullname">Fullname</label>
+                <input type="text" name="fullname" id="fullname" />   
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+                <label for="nummer">Nummer</label>
+                <input type="number" name="nummer" id="nummer" />
+            </fieldset>
+            <fieldset class="fo-grid bg-se">
+                <legend>Produkt</legend>
+                <input type="checkbox" name="product" id="ux-design" />
+                <label for="ux-design">UX-Design</label>
+                <input type="checkbox" name="product" id="ui-design" />
+                <label for="ui-design">UI-Design</label>
+                <input type="checkbox" name="product" id="frontend" />
+                <label for="frontend">Frontend</label>
+                <input type="checkbox" name="product" id="backend" />
+                <label for="backend">Backend</label>
+            </fieldset>
+            <fieldset class="fl-wp bg-pr">
+                <label for="Details">Further Details</label>
+                <input type="text" name="details" id="details" value="" />
+            </fieldset>
+            <button class="bg-te" type="submit">
+                Submit (button)
+            </button>
+            <input type="button" name="cancel" id="cancel" value="Cancel (input)" class="bg-gr" />
+        </form>
+    </section>
+    <section>
+        <h2>Animationen</h2>
+        <p>Beschreibung: </p>
+    </section>
+
+</body>
+<html>
