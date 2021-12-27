@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Soutce+Code+Pro&display=swap');
 
-/* Аллгемеин, Фомтс, унд Фсрбе */
+/* Allgemine, Fonts, und Farben */
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +26,7 @@ body,header,main,footer,h1, h2, h3, h4, h5, h6, p,div, section, article, aside, 
 }
 
 body {
+    padding: 10px;
     background: lightgrey;
 }
 
@@ -114,6 +115,10 @@ th, td {
     align-items: flex-end;
 }
 
+/* Tabellen */
+
+
+
 /* Formen */
 
 form, fieldset, label, input, button {
@@ -137,4 +142,10 @@ button {
 .fo-grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+.fo-grid-cb {
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    align-items: center;
 }
