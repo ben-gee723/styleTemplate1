@@ -94,10 +94,6 @@
 
     </section>
     <section>
-        <h2>Pseudo-Elemente</h2>
-        <p></p>
-    </section>
-    <section>
         <h2>Formen</h2>
         <p>Beschreibung: </p>
         <form action="" method="get" accept-charset="utf-8">
@@ -122,7 +118,16 @@
                 <input type="checkbox" name="product" id="backend" />
                 <label for="backend">Backend</label>
             </fieldset>
-            <fieldset class="fl-wp bg-pr">
+            <fieldset class="fo-grid-cb bg-pr">
+                <legend>Payment Type</legend>
+                <input type="radio" name="payment" id="upfront" />
+                <label for="upfront">Up-Front</label>
+                <input type="radio" name="payment" id="weekly-installments" />
+                <label for="weekly-installments">Weekly Installments</label>
+                <input type="radio" name="payment" id="monthly-installments" />
+                <label for="monthly-installments">Monthly Installments</label>
+            </fieldset>
+            <fieldset class="fl-wp bg-se">
                 <label for="Details">Further Details</label>
                 <input type="text" name="details" id="details" value="" />
             </fieldset>
@@ -135,6 +140,27 @@
     <section>
         <h2>Animationen</h2>
         <p>Beschreibung: </p>
+
+        <article>
+            <h3>loading...</h3>
+            <div>
+            <svg class="rotate" width="119" height="119" viewBox="0 0 119 119" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle class="loading-img" cx="10" cy="39" r="10" fill-opacity="0.55"/>
+                <circle class="loading-img" cx="39" cy="10" r="10" fill-opacity="0.7"/>
+                <circle class="loading-img" cx="80" cy="10" r="10" fill-opacity="0.85"/>
+                <circle class="loading-img" cx="109" cy="39" r="10" />
+                <circle class="loading-img" cx="80" cy="109" r="10" fill-opacity="0.1"/>
+                <circle class="loading-img" cx="39" cy="109" r="10" fill-opacity="0.25"/>
+                <circle class="loading-img" cx="10" cy="80" r="10" fill-opacity="0.4"/>
+                </svg>
+            </div>
+                
+        </article>
+    </section>
+    <section>
+        <h2>Pseudo-Elemente</h2>
+        <p>Beschreibung: </p>
+        <h3>:hover</h3>
     </section>
 
 </body>

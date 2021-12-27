@@ -158,3 +158,20 @@ button {
     grid-template-columns: 10% 1fr;
     align-items: center;
 }
+
+/* Animationen */
+.loading-img {
+    fill: var(--primary-color);
+}
+
+.rotate {
+    animation-name: rotate;
+}
+
+.slideIn-le {
+    animation-name: slideIn-le;
+}
+
+.slideIn-ri {
+    animation-name: slideIn-ri;
+}

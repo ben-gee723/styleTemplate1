@@ -3,13 +3,28 @@
 In diesem Repo geht es darum, um CSS zu testen und experimentieren wie ich das Stylen der Elemente behandeln soll.
 
 ## Elemente:
- - Grunlegende Infos auf * und Root
- - body, header, main, footer
- - nav
- - Header Elemente --> h1, h2, etc...
- - div, section, article, aside
- - table
- - Positionierung
- - Formen
- - Layout
- - Responsivity
+ - [X] Grunlegende Infos auf * und Root
+ - [X] body, header, main, footer
+ - [] nav
+    - [] Logo
+    - [] Burger
+    - [] Mobile
+    - [] Tablet
+    - [] Desktop
+ - [X] Header Elemente --> h1, h2, etc...
+ - [X] div, section, article, aside
+ - [X] Positionierung
+ - [] table
+ - [] Formen
+    - [x] text
+    - [x] email
+    - [x] checkbox
+    - [] radio
+ - [] Layouts
+    - [] grid
+ - [] Animationen
+    - [] Pseudo Elemente
+ - [] Responsivity
+    - [] Mobile
+    - [] Tablet
+    - [] Desktop
