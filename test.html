@@ -135,10 +135,10 @@
                 <label for="Details">Further Details</label>
                 <input type="text" name="details" id="details" value="" />
             </fieldset>
-            <button class="bg-te" type="submit">
+            <button class="bg-te hover" type="submit">
                 Submit (button)
             </button>
-            <input type="button" name="cancel" id="cancel" value="Cancel (input)" class="bg-gr" />
+            <input class="bg-gr hover" type="button" name="cancel" id="cancel" value="Cancel (input)"  />
         </form>
     </section>
     <!-- Animationene -->
@@ -146,26 +146,41 @@
         <h2>Animationen</h2>
         <p>Beschreibung: </p>
 
-        <article>
-            <h3>loading...</h3>
-            <div>
-            <svg  style="padding: 10px;" class="rotate" width="119" height="119" viewBox="0 0 119 119" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle class="loading-img" cx="10" cy="39" r="10" fill-opacity="0.55"/>
-                <circle class="loading-img" cx="39" cy="10" r="10" fill-opacity="0.7"/>
-                <circle class="loading-img" cx="80" cy="10" r="10" fill-opacity="0.85"/>
-                <circle class="loading-img" cx="109" cy="39" r="10" />
-                <circle class="loading-img" cx="80" cy="109" r="10" fill-opacity="0.1"/>
-                <circle class="loading-img" cx="39" cy="109" r="10" fill-opacity="0.25"/>
-                <circle class="loading-img" cx="10" cy="80" r="10" fill-opacity="0.4"/>
-            </svg>
-            </div>
-                
-        </article>
+        <section class="fl-wp jc-se">
+            <article class="fl-co ai-ce">
+                <h3>loading...</h3>
+                <div>
+                    <svg  style="padding: 10px;" class="rotate" width="119" height="119" viewBox="0 0 119 119" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="loading-img" cx="10" cy="39" r="10" fill-opacity="0.55"/>
+                    <circle class="loading-img" cx="39" cy="10" r="10" fill-opacity="0.7"/>
+                    <circle class="loading-img" cx="80" cy="10" r="10" fill-opacity="0.85"/>
+                    <circle class="loading-img" cx="109" cy="39" r="10" />
+                    <circle class="loading-img" cx="80" cy="109" r="10" fill-opacity="0.1"/>
+                    <circle class="loading-img" cx="39" cy="109" r="10" fill-opacity="0.25"/>
+                    <circle class="loading-img" cx="10" cy="80" r="10" fill-opacity="0.4"/>
+                    </svg>
+                </div>
+            </article>
+            <article class="fl-co ai-ce">
+                <h3>Slide in from Left</h3>
+                <div class="slideIn-le bg-pr co-lt" style="width: 100px;">
+                    <h4>Apple</h4>
+                </div>
+            </article>
+            <article class="fl-co ai-ce">
+                <h3>Slide in from Right</h3>
+                <div class="slideIn-ri bg-se co-lt" style="width: 100px;">
+                    <h4>Apple</h4>
+                </div>
+            </article>
+        </section>
     </section>
     <section>
         <h2>Pseudo-Elemente</h2>
         <p>Beschreibung: </p>
-        <h3>:hover</h3>
+        <div class="bg-te hover ho-te">
+            <h3>:hover</h3>
+        </div>
     </section>
 
 </body>

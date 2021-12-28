@@ -19,12 +19,17 @@ In diesem Repo geht es darum, um CSS zu testen und experimentieren wie ich das S
     - [x] text
     - [x] email
     - [x] checkbox
-    - [] radio
+    - [x] radio
  - [] Layouts
     - [] grid
  - [] Animationen
     - [x] Loading...
-    - [] Pseudo Elemente
+    - [x] slideIn-le
+    - [x] slideIn-ri
+ - [] Transitionen: Pseudo Elemente
+    - [] :hover
+    - [] :active
+    - [] :clicked
  - [] Responsivity
     - [] Mobile
     - [] Tablet
