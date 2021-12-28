@@ -1,17 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('./style.css');
 
 /* Allgemine, Fonts, und Farben */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Source Code Pro', monospace;
 }
 
 :root {
-    --primary-color: #0B9A92;
-    --secondary-color: #1A7AC3;
-    --tertiary-color: #53CDCA;
     --dark-color: rgb(68, 68, 68);
     --light-color: white;
     --grey-color: lightgrey;
@@ -83,7 +79,7 @@ div, section, article, aside, form, fieldset, legend, input {
 } 
 
 
-/* Росиционирунг */
+/* Positionierung */
 
 .fl-wp  {
     display: flex;
@@ -173,10 +169,6 @@ legend {
     background: var(--grey-color);
 }
 
-/* input[type="checkbox"] {
-    border: 1px solid red; 
-} */
-
 button {
     border-radius: var(--border-round-10);
 }
@@ -264,3 +256,20 @@ button {
     
 } */
 
+/* Media Queries */
+
+@media only screen and (min-width: 768px) {
+    .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .main-grid {
+        width: 80%;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
