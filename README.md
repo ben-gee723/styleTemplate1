@@ -1,6 +1,15 @@
-# styleTemplate1
+# styleTemplate1 --> My standard HTML styles
 
-In diesem Repo geht es darum, um CSS zu testen und experimentieren wie ich das Stylen der Elemente behandeln soll.
+[View Ive Template](https://ben-gee723.github.io/styleTemplate1/)
+
+Diese Repo geht darum, CSS zu testen und experimentieren wie ich das Stylen der Elemente auf meinen HTML-Dateien behandeln möchte.
+Hauptsache, bauere ich quasi mein eigenes Framework auf, indem ich erst auf die Tags fokussiere und danach auch Klassen erstelle, die auf der Mehrheit der Elemente wiederverwendbar sind. 
+
+This Repo is about CSS testing and experimenting on how I would like to handle the styling of the elements in my HTMLs files.
+Essentially, I am building my own sort of Framework by focusssing on Styling the Tags first and creating classes that are reusable on the majority of the elements.
+
+1. exemplar.css --> Template Stylen(Standard Styles) 
+2. style.css --> Kliente Style und Besondere Styles für die Webseite (Client based and Special Styles for the website)
 
 ## Elemente:
  - [X] Grunlegende Infos auf * und Root
