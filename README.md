@@ -15,22 +15,22 @@ In diesem Repo geht es darum, um CSS zu testen und experimentieren wie ich das S
  - [X] div, section, article, aside
  - [X] Positionierung
  - [] table
- - [] Formen
+ - [x] Formen
     - [x] text
     - [x] email
     - [x] checkbox
     - [x] radio
- - [] Layouts
-    - [] grid
- - [] Animationen
+ - [x] Layouts
+    - [x] grid --> Subjektiv zu besonderen Webseiten
+ - [x] Animationen
     - [x] Loading...
     - [x] slideIn-le
     - [x] slideIn-ri
  - [] Transitionen: Pseudo Elemente
-    - [] :hover
+    - [x] :hover
     - [] :active
     - [] :clicked
- - [] Responsivity
-    - [] Mobile
-    - [] Tablet
-    - [] Desktop
+ - [x] Responsivity
+    - [x] Mobile
+    - [x] Tablet
+    - [x] Desktop
