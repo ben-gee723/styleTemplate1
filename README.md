@@ -26,7 +26,7 @@ In diesem Repo geht es darum, um CSS zu testen und experimentieren wie ich das S
     - [x] Loading...
     - [x] slideIn-le
     - [x] slideIn-ri
- - [] Animationen: Pseudo Elemente
+ - [] Transitionen: Pseudo Elemente
     - [] :hover
     - [] :active
     - [] :clicked

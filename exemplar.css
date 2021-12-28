@@ -90,6 +90,11 @@ div, section, article, aside, form, fieldset, legend, input {
     flex-wrap: wrap;
 }
 
+.fl-co {
+    display: flex;
+    flex-direction: column;
+}
+
 .jc-fs{
     justify-content: flex-start;
 }
@@ -100,6 +105,18 @@ div, section, article, aside, form, fieldset, legend, input {
 
 .jc-fe{
     justify-content: flex-end;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-se {
+    justify-content: space-evenly;
 }
 
 .ai-fs{
@@ -156,9 +173,9 @@ legend {
     background: var(--grey-color);
 }
 
-input[type="checkbox"] {
-    /* border: 1px solid red; */
-}
+/* input[type="checkbox"] {
+    border: 1px solid red; 
+} */
 
 button {
     border-radius: var(--border-round-10);
@@ -220,3 +237,30 @@ button {
         margin-left: 0px;
     } 
 }
+
+/* Pseudo Elemente Transitionen */
+
+.hover{
+    transition: transform .1s ease-in-out;
+}
+
+.hover:hover {
+    transform: translate(0, -3px);
+}
+
+/* .active{
+
+}
+
+.active:active {
+    
+}
+
+.visited {
+
+}
+
+.visited:visited {
+    
+} */
+
