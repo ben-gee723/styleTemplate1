@@ -21,7 +21,7 @@
     color: rgb(68, 68, 68);
 }
 
-body,header,main,footer,h1, h2, h3, h4, h5, h6, p,div, section, article, aside, table, form, legend {
+body,header,main,footer,h1, h2, h3, h4, h5, h6, p, div, section, article, aside, table, form, legend {
     margin: 10px 0;
     padding: 5px;
 }
@@ -192,9 +192,31 @@ button {
 }
 
 .slideIn-le {
-    animation-name: slideIn-le;
+    animation: slideIn-le 1.5s;
+}
+
+@keyframes slideIn-le { 
+    0% {
+        opacity: 0; 
+        margin-left: -50px;
+    }
+    100% { 
+        opacity: 1; 
+        margin-left: 0px;
+    } 
 }
 
 .slideIn-ri {
-    animation-name: slideIn-ri;
+    animation: slideIn-ri 1.5s;
+}
+
+@keyframes slideIn-ri { 
+    0% {
+        opacity: 0; 
+        margin-left: 50px;
+    }
+    100% { 
+        opacity: 1; 
+        margin-left: 0px;
+    } 
 }
