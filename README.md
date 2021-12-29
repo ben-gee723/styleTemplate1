@@ -1,6 +1,6 @@
 # styleTemplate1 --> My standard HTML styles
 
-[View Ive Template](https://ben-gee723.github.io/styleTemplate1/)
+[View Live Template](https://ben-gee723.github.io/styleTemplate1/)
 
 Diese Repo geht darum, CSS zu testen und experimentieren wie ich das Stylen der Elemente auf meinen HTML-Dateien behandeln möchte.
 Hauptsache, bauere ich quasi mein eigenes Framework auf, indem ich erst auf die Tags fokussiere und danach auch Klassen erstelle, die auf der Mehrheit der Elemente wiederverwendbar sind. 
